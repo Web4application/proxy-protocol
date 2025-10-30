@@ -1,9 +1,7 @@
-2020/03/05                                                        Willy Tarreau
-                                                           HAProxy Technologies
-                               The PROXY protocol
-                                 Versions 1 & 2
 
-Abstract
+## PROXY protocol
+
+
 
    The PROXY protocol provides a convenient way to safely transport connection
    information such as a client's address across multiple layers of NAT or TCP
