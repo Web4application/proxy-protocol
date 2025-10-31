@@ -2,7 +2,6 @@
 ## PROXY protocol
 
 
-
    The PROXY protocol provides a convenient way to safely transport connection
    information such as a client's address across multiple layers of NAT or TCP
    proxies. It is designed to require little changes to existing components and
