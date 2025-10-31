@@ -1,1 +1,16 @@
 sudo ln -s /etc/nginx/sites-available/windows.ai.conf /etc/nginx/sites-enabled/
+
+sudo certbot certonly --standalone \
+-d windows.ai \
+-d web4app.io \
+-d web4.ai \
+-d brain.ai \
+-d web4app.ai \
+-d web4.dev \
+-d webllms.app \
+-d app.webllms.ai \
+-d app.web4app.io \
+-d webllms.windows.ai \
+-d ghe.com \
+-d ghe.io \
+-d ghcr.io
